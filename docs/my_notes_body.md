@@ -32,6 +32,7 @@ bundle exec jekyll serve  # starts the server on localhost
 
 
 To Do:
+* Great comic describing color blindness: ![A Vision in Monochrome](https://thenib.com/a-vision-in-monochrome/)
 * Add details on how to do git clone step, or if git hasn't been covered
   in earlier classes, do a whole git lecture.
 * Add some force to the prereqs.
