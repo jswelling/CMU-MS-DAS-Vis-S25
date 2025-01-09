@@ -16,7 +16,7 @@ class web page in the data directory.
 Assuming you've cloned the class Github repo, it's easy to get Colin27
 in numpy form:
 ```
-file_path = '/home/welling/git/CMU-MS-DAS-Vis-S24/data/colin27_icbm_181_217_181.bytes'
+file_path = '/home/welling/git/CMU-MS-DAS-Vis-S25/data/colin27_icbm_181_217_181.bytes'
 colin_tlrc = np.fromfile(file_path, dtype=np.uint8)
 colin_tlrc = np.reshape(colin_tlrc, (181, 217, 181), order='F')
 ```

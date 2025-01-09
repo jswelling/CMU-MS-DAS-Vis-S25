@@ -77,24 +77,24 @@ To Do (4):
 Class starts Tue Jan 16 and runs through April 25 with no break.
 11AM - 12:20PM
 
-* Jan 16: Block 1 part 1
-* Jan 18: Git and GitHub
-* Jan 23 (Tuesday): Block 1 part 2
-* Jan 25 (Thursday): Block 1 colors, Block 2 contours and ggplot
-* Jan 30 (Tuesday): Block 2 seaborn 1
-* Feb 1 (Thursday): Block 2 seaborn 2
+* Jan 14 (Tue): Block 1 part 1
+* Jan 16 (Thu): Git and GitHub
+* Jan 21 (Tue): Block 1 part 2
+* Jan 23 (Thu): Block 1 colors, Block 2 contours and ggplot
+* Jan 28 (Tue): Block 2 seaborn 1
+* Jan 30 (Thu): Block 2 seaborn 2
 
 
-* Feb 6 (Tuesday) Block 3 maps 1; please install GraphViz and Gephi
-* Feb 8 (Thursday): Block 3 maps 2, Block 4 web server
-* Feb 13 (Tuesday): Block 4 graphs (incl Brendan/Gephi); please install Tableau
-* Feb 15 (Thursday): Block 4 D3
-* Feb 20 (Tuesday): Block 5 (Tableau); please install VisIt
-* Feb 22 (Thursday): Block 5 (Tableau) continued
+* Feb 4 (Tue) Block 3 maps 1; please install GraphViz and Gephi
+* Feb 6 (Thu): Block 3 maps 2, Block 4 web server
+* Feb 11 (Tue): Block 4 graphs (incl Brendan/Gephi); please install Tableau
+* Feb 13 (Thu): Block 4 D3
+* Feb 18 (Tue): Block 5 (Tableau); please install VisIt
+* Feb 20 (Thu): Block 5 (Tableau) continued
 
 
-* Feb 27 (Tuesday): prev Block 6 (VisIt)
-* Feb 29 (Thursday): Block 6 (VisIt) continued
+* Feb 25 (Tue): prev Block 6 (VisIt)
+* Feb 27 (Thu): Block 6 (VisIt) continued
 
 
 

@@ -160,7 +160,7 @@ We will talk about using the `git commit` command shortly...
 
 To clone this class:
 ```
-git clone https://github.com/jswelling/CMU-MS-DAS-Vis-S24
+git clone https://github.com/jswelling/CMU-MS-DAS-Vis-S25
 ```
 To create a local repo with no GitHub partner:
 ```
@@ -261,7 +261,7 @@ Now we try all of these things out.
 ## Preliminaries
 
 * Accept the invitation to join the repo
- [CMU-MS-DAS-Vis-S24-GITCLASS](https://github.com/jswelling/CMU-MS-DAS-Vis-S24-GITCLASS)
+ [CMU-MS-DAS-Vis-S25-GITCLASS](https://github.com/jswelling/CMU-MS-DAS-Vis-S25-GITCLASS)
  if you have not already done so.
 * Clone that repo. Unless you have a shared ssh key with GitHub, use the '''https://''' form
  to make the clone.
