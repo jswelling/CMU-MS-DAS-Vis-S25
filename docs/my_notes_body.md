@@ -75,7 +75,7 @@ To Do (4):
 
 ## Class Calendar:
 
-Class starts Tue Jan 16 and runs through April 25 with no break.
+Class starts Tue Jan 14 and runs through Feb 27 with no break.
 11AM - 12:20PM
 
 * Jan 14 (Tue): Block 1 part 1
