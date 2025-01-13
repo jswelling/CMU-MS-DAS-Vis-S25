@@ -143,7 +143,7 @@ We have a <a href="https://canvas.cmu.edu/courses/44862/pages/course-intro-and-m
 
 ## Homework Policy ##
 
-Let's take a moment to look at the [syllabus](https://canvas.cmu.edu/courses/34235/assignments/syllabus) sections on Evaluation and Late Homework.
+Let's take a moment to look at the [syllabus](https://canvas.cmu.edu/courses/44862/assignments/syllabus) sections on Evaluation and Late Homework.
 
 
 
