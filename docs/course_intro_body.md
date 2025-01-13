@@ -48,15 +48,14 @@ If you are not comfortable doing any of these things, contact me after
 class and we will fix it.
 
 
-
 ## Another Reality Check ##
 * Can you download data from Github?
 * Can you clone a Github repository and run the code in it?
 * Can  you build a Conda or Pip environment from a requirements.txt file?
+* Have you ever reviewed and merged a PR?
 
-_Big News_ : Apparently that didn't get covered in your intro.
-Unless we get lucky and everybody knows this already, we'll be doing an emergency Git class Thursday.
-
+We will be doing a day on GitHub-based collaboration, because it's standard
+in the industry.
 
 
 ## Other Experience ##
@@ -109,19 +108,25 @@ Utility: Software for Visualization of Human Brain Networks"</span>
 We will:
 * Talk about the various manifolds on which data can exist
 * Look at idioms for each manifold
-* ...and the tools that can be used to create them
+* ...and tools that can be used to create them
 * Do some programming exercises with those tools
-* Spend a bit of time on VisIt, a tool for very large scale
-scientific visualization.
-
+* Work with some large interactive visualization tools
 
 This is not intended to be an ordered list.
+
+
+## "Large interactive software tools"
+
+We'll spend a few days on <a href="https://www.tableau.com/products/tableau">Tableau</a>...
+
+...and try out <a href="https://visit-dav.github.io/visit-website/index.html">VisIt</a>, a tool for very large scale
+scientific visualization.
 
 
 
 ## Mechanics ##
 
-We have a <a href="https://canvas.cmu.edu/courses/26411/pages/course-intro?module_item_id=4978482" target="_blank">Canvas page</a> for:
+We have a <a href="https://canvas.cmu.edu/courses/44862/pages/course-intro-and-mechanics?module_item_id=6003745" target="_blank">Canvas page</a> for:
 * scheduling
 * assignments
 * homework hand-in, unless otherwise specified
