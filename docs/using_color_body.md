@@ -91,6 +91,13 @@ X chromosome).
 
 
 
+## Another View On Color Blindness
+
+I highly recommend [A Vision In Monochrome](https://thenib.com/a-vision-in-monochrome/), a web comic
+by an achromatopic artist.
+
+
+
 ## Using Color To Show Complex Values
 
 One more useful trick with a color table- suppose you want to show a

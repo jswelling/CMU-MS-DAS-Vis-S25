@@ -13,7 +13,8 @@ will use the California COVID dataset.
 ### A General Requirement
 
 Your code should work properly even if the order of the input data records changes.  If your code needs to find
-a specific row of data in a specific place, you're doing it wrong.
+a specific row of data in a specific place, you're doing it wrong.  Ideally the code should work just fine if
+given a table from a different year!
 
 
 
