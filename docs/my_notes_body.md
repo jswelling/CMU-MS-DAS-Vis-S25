@@ -79,8 +79,8 @@ Class starts Tue Jan 14 and runs through Feb 27 with no break.
 11AM - 12:20PM
 
 * Jan 14 (Tue): Block 1 part 1
-* Jan 16 (Thu): Git and GitHub
-* Jan 21 (Tue): Block 1 part 2
+* Jan 16 (Thu): Block 1 part 2
+* Jan 21 (Tue): Git and GitHub
 * Jan 23 (Thu): Block 1 colors, Block 2 contours and ggplot
 * Jan 28 (Tue): Block 2 seaborn 1
 * Jan 30 (Thu): Block 2 seaborn 2
