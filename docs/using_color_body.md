@@ -84,17 +84,16 @@ This is much more common in men (I think because it is encoded on the
 X chromosome).
 
 
-
-## Dr. Barber's Discussion of Color Blindness In Simple Graphics
-
-[What Does Color Blindness Look Like?](https://youtu.be/DpkWgAyjWBs)
-
-
-
 ## Another View On Color Blindness
 
 I highly recommend [A Vision In Monochrome](https://thenib.com/a-vision-in-monochrome/), a web comic
 by an achromatopic artist.
+
+
+
+## Dr. Barber's Discussion of Color Blindness In Simple Graphics
+
+[What Does Color Blindness Look Like?](https://youtu.be/DpkWgAyjWBs)
 
 
 
