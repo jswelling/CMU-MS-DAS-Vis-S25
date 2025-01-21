@@ -269,54 +269,132 @@ Now we try all of these things out.
 
 * To push changes to the repo without a shared ssh key, you will need a GitHub personal access token.
 Follow along with the instructor for the steps to create one.
+ * It's best to use a [Personal Access Token (Classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) today.
  * If you lose it, you will have to create a new one!
+
+
  * Whenever git asks for a password, paste in this token instead.
  * When you paste it in, it won't be visible because it's working like a password and thus is hidden.
   Don't paste it twice!
 
 
 
-## Pick a Branch
+## The Game Plan
 
-The repo has a main branch, and several other branches with names like **group_1**, **group_2**, etc.
+We are dividing into groups, with one experienced person per group.
 
-Everyone is going to be assigned to a group.  Each member of the group should check out that group's
-branch.  For example,
+Each group has a branch.  Working together, the group will update the branch.
+
+The group leader will submit a PR to merge the updated branch back into Main.
+
+
+* Each member will check out the current version of the branch, create a
+  new working branch, make an edit, and then push their edit back to GitHub.
+* Each member will then submit a PR to their group leader for their edit.
+* The group leader will review the edit and merge the edit back into the group branch.
+
+
+I'll review each group leader's PR and merge the PRs back into Main.
+
+The tricky bit is that we are all working on the same file- `helloworld.py`.
+There will be a lot of edit conflicts.  Understanding those is really the point
+of the exercise.
+
+
+
+## If You Find Yourself In A Strange Editor!
+
+Many git commands record messages.  You can generally include your message
+on the command line, with the '-m' option.
+
+If you don't, git may throw you into a strange editor for your message.  By
+default that editor is probably `vim`, which only old Linux gurus know :-(
+
+
+Things to try if you find yourself in an editor you don't recognize:
+* type 'a' to start inserting text.
+* type escape to *stop* inserting text.
+* type 'ZZ' to exit, saving your changes.
+* type ':q!' to exit without saving changes.
+
+
+
+## If you are using Git and GitHub within VSCode
+
+Start by getting a Personal Access Token, as described above.
+
+Here are some useful links:
+* [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+* [Working with GitHub in VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)
+* [VS Code Home on GitHub](https://github.com/microsoft/vscode)
+
+
+
+## Steps To Follow
+
+To complete this in-class task, your name needs to end up in the version of
+`helloworld.py` on the main branch.  We do this by editing changes into one
+of the group_* branches and merging things back into main.
+
+Start by cloning the repo to your laptop, as described earlier.  If you're
+not experienced pushing code to GitHub, clone it using the `https://` version
+of the repo link.
+
+
 ```
-checkout group_2
+git clone https://github.com/jswelling/CMU-MS-DAS-Vis-S25-GITCLASS.git
+cd CMU-MS-DAS-Vis-S25-GITCLASS
+git pull  # probably unnecessary but a good habit
 ```
 
 
-## Edit helloworld.py
-
-Change the code in src/helloworld/helloworld.py so that it includes your name.  Then push your
-change back to the branch on GitHub.  The steps are something like:
+Check out the branch for your work group.  We'll say it's Group 3 here.
 ```
-cd src/helloworld
-<edit the file helloworld.py to add your name>
+git checkout group_3
+```
+The working directory now contains the current state of the `group_3` branch.
+
+
+Create your own branch from `group_3`.  The new branch will keep your work
+separate from others until your group leader merges it.
+Groups I've worked with usually use the developer's name to help identify
+this work branch.  This is just convention;
+you can call it anything as long as there are no spaces in the name.
+```
+git checkout -b welling/add_my_name
+```
+
+
+Edit the file to add your name, then add (stage) and commit the file.
+```
+cd src/helloworld/
+<edit helloworld.py with whatever editor is convenient>
 git add helloworld.py
-git commit -m "added my name"
+git commit -m "some message goes here"
+```
+
+
+Push the resulting branch back up to GitHub.  The command below will
+actually produce a warning message, because GitHub doesn't know about the
+branch you created.  The warning will contain the correct command!
+```
 git push
 ```
 
 
-## This will probably fail!
-
-When you try to push your changes, git will probably tell you that you don't have the most recent
-version of the branch.  This is because someone else in your group got their change committed first!
-
-You will need to do a `git pull` to get their change.  This will report a *merge conflict*, which
-you must resolve.
+Go back to the repo on GitHub and create a PR to merge your change branch
+into your group branch (`group_3` in this case).  Be sure the "target" branch
+is set to your group branch, not the main branch! Request a review from your
+group leader.  We'll walk through this part in class.
 
 
-We'll walk through this in class, but the basic steps are:
-```
-<edit helloworld.py to fix the conflicted area>
-<save your edits>
-git add helloworld.py
-git commit -m "resolve merge conflict"
-```
-After that your `git push` should work, unless another member of your group did it first!
+You're done with the exercise!  You can watch your group leader resolve any
+merge conflicts as your updates get merged with your other team members.
+It's often easier to do this merge step locally rather than on GitHub,
+but we'll do it on GitHub to make things quicker.
+
+Usually, different members of a group are working on different files, so
+conflicts aren't such a big problem.
 
 
 
@@ -325,5 +403,3 @@ After that your `git push` should work, unless another member of your group did 
 Once all groups have updated their branches, we will work through the process of merging
 all the branches back into the *main* branch using pull requests.  Please follow along,
 because this is the way it is usually done in real work environments.
-
-

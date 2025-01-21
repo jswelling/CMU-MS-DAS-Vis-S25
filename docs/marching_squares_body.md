@@ -27,7 +27,14 @@ value and mapping it to an RGB triple.
 ## One Square At A Time
 
 Consider that the data comprises some function f(x,y), where sample values
-are known on a grid.  We want to draw curves of constand f.  Call that value $f_0$.
+are known on a grid.  We want to draw curves of constant f.  Call that value $f_0$.
+
+
+Blue circles are greater than $f_0$, red ones <= $f_0$ .  The lines show
+$f = f_0$ . (They should be continuous but I'm a lousy artist).
+
+![Marching squares putting cells together](images/marching_squares_putting_cells_together.png)
+
 
 Any given grid square has four corners.  Each corner has a value that
 is either above or below our target value $f_0$.  Since there are 4
