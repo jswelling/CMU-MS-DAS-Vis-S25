@@ -83,7 +83,7 @@ enough anlysis that the differences between the datasets become visible.
 
 
 
-## Seaborn's Tutorial is *Excellent*
+## Seaborn's [Tutorial](https://seaborn.pydata.org/tutorial.html) is *Excellent*
 We will walk through several sections in detail.  The other sections you
 get to read as homework.
 
