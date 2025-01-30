@@ -82,6 +82,11 @@ line and the standard deviation of the regression line- and that is a deep
 enough anlysis that the differences between the datasets become visible.
 
 
+Why is it "sns"?  It turns out to be an old joke, a reference to
+[Sam Seaborn](https://pbs.twimg.com/media/C3C6q1ZUYAALXX0.jpg), a
+character played by Rob Lowe on _The West Wing_ .
+
+
 
 ## Seaborn's [Tutorial](https://seaborn.pydata.org/tutorial.html) is *Excellent*
 We will walk through several sections in detail.  The other sections you
