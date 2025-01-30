@@ -33,3 +33,5 @@ use different symbols for the counties that based on their "general_law_or_chart
 characteristic.
 
 Use a log scale in the population_density direction to make the correlation clearer.
+Set the Y axis of the graph to log scale explicitly; do not add a column of log
+values to your dataframe!
