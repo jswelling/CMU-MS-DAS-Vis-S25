@@ -32,20 +32,19 @@ bundle exec jekyll serve  # starts the server on localhost
 
 
 To Do:
-* Great comic describing color blindness: ![A Vision in Monochrome](https://thenib.com/a-vision-in-monochrome/)
-* Add details on how to do git clone step, or if git hasn't been covered
-  in earlier classes, do a whole git lecture.
+* GitHub assignment: add a note about dealing with nano/pico
 * Add some force to the prereqs.
-* "Where are we with matplotlib" assignment: add requirement that their
-  code should work even if the rows of the table are shuffled, and even
-  if someone handed them a table from a completely different year.  That's
-  just good practice, and it would avoid laziness in picking the minimum date.
+* "Where are we with matplotlib" assignment: make it explicit that they should
+  use the minimum date, not hard-code a minimum.
+
+
+* "Where are we with matplotlib" assignment: There was some confusion between
+  the across-counties median, Q1, and Q3 and the across-time 7-day running
+  average.  Clarify that they should take non-parametric stats first and then
+  do 7-day average across *all three* quantities, and graph those 3 rolling averages.
 
 
 To Do (2):
-* "Seaborn" assignment: be explicit that they should get the log scale by
-  using seaborn or matplotlib commands, *not* by adding a new column of
-  logarithms.
 * "Maps" assignment: be explicit that travel distances should be between
   centers.  GeoPandas will compute travel distances between boundaries but
   it differs a *lot* from haversine.

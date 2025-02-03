@@ -22,7 +22,7 @@ insightful maps.
 available.
 * A way to name the locations.  There are codes for this.  In the US they
 are *FIPS codes* and *census tracts*.
-* Software to do the necessary map projections.  We'll use GoePandas, but
+* Software to do the necessary map projections.  We'll use GeoPandas, but
 there are many options.
 * Something interesting to plot.
 
@@ -74,7 +74,7 @@ A lot of the data is map rasters, which is not exactly what we want here.
 
 Some examples:
 * [UK Open Geography Portal](https://geoportal.statistics.gov.uk/datasets) boundaries for Great Britain
-* [EU Political Boundaries](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries)
+* [EU Political Boundaries](https://ec.europa.eu/eurostat/web/gisco/geodata)
 
 etc, etc, etc.
 
@@ -109,7 +109,7 @@ like [QGIS](https://www.qgis.org/en/site/).  But we are just visiting, so we wil
 more familiar.
 
 
-[GeoPandas](geopandas.org) is Pandas, with a couple of additions:
+[GeoPandas](https://geopandas.org) is Pandas, with a couple of additions:
 * Geometry as a prominent data type
 * Projections.  This is a huge topic.
 
