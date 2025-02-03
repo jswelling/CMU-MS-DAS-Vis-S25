@@ -38,13 +38,16 @@ To Do:
   use the minimum date, not hard-code a minimum.
 
 
+To Do (2):
 * "Where are we with matplotlib" assignment: There was some confusion between
   the across-counties median, Q1, and Q3 and the across-time 7-day running
   average.  Clarify that they should take non-parametric stats first and then
   do 7-day average across *all three* quantities, and graph those 3 rolling averages.
+* Seaborn assignment: can we make a version that does more with categorical data? Like
+  continuous/non-continuous vs. color bars?
 
 
-To Do (2):
+To Do (3):
 * "Maps" assignment: be explicit that travel distances should be between
   centers.  GeoPandas will compute travel distances between boundaries but
   it differs a *lot* from haversine.
