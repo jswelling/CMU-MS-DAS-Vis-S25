@@ -163,6 +163,20 @@ The Mercator projection (EPSG 3395) is also commonly used, and reduces distortio
 [![Mercator Projection - Encyclopaedia Britannica](images/transformation-Mercator-navigation-projection.jpg)](https://www.britannica.com/science/Mercator-projection)
 
 
+[Universal Transverse Mercator](https://gisgeography.com/utm-universal-transverse-mercator-projection/) (UTM)
+is a set of 60 different
+[Transverse Mercator](https://en.wikipedia.org/wiki/Transverse_Mercator_projection#/media/File:Comparison_of_cylindrical_projections.svg)
+projections, each 6 degrees of latitude wide. Widely used and accurate, but you need to know which band you
+are looking at.
+
+[![A Transverse Mercator Projection](images/Usgs_map_transverse_mercator.png)](https://upload.wikimedia.org/wikipedia/commons/b/b9/Usgs_map_traverse_mercator.PNG)
+
+
+...not to be confused with [Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator_projection), which was
+popularized by Google Maps and is now the de facto standard for on-line maps.  It's not very accurate over
+long distances!
+
+
 You'll see [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System) mentioned in many descriptions
 of projections.  This is usually a reference to the geoid, the not-quite spherical shape the Earth
 would take if it were completely covered in water.  All of these coordinate systems are made with reference to the geoid.
