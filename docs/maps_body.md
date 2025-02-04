@@ -235,7 +235,8 @@ where:
 
 
 This is named for the *haversine*, something that people tabulated back
-before we had computers.
+before we had computers.  There is a really nice description
+[here](https://community.esri.com/t5/coordinate-reference-systems-blog/distance-on-a-sphere-the-haversine-formula/ba-p/902128) .
 
 $$
 hav(\theta) = \sin^2 \left ( \frac{\theta}{2} \right ) = \frac{1 - \cos(\theta)}{2}
