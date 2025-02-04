@@ -72,11 +72,12 @@ counties by:
 * Merge the snowfall dataframe with the cities-and-counties dataframe,
 using the city name as the merge key.  Note that there are many cities
 for which we have no snowfall estimate, so there will be a lot of
-missing snowfall data.
+missing snowfall data.  Be careful to also preserve the cities with no
+county information.  We will figure out their counties in the next step.
 
 
-* Rather than give up
-  on those cities, you can use the Nominatim geocoder to get county
+* Rather than give up on cities with no county information,
+  you can use the Nominatim geocoder to get county
   information for most of them, as follows.
  * Use the geocoder to look up `{Location} Pennsylvania US` , where
    {Location} is that entry in a particular row.
@@ -100,14 +101,16 @@ counties with more than one named city by averaging over their
 snowfall estimates.
 
 Now you should have a dataframe with county names and estimated
-snowfall values.
+snowfall values.  Some counties have no snowfall entries- the snowfall
+there is not known.
 
 
 
 ### Step 6: Merge the snowfall data into the GeoDataFrame
 
-Be careful to do the merge in such a way that counties with no
-snowfall data stay in the GeoDataFrame, but with 'NaN' values
+Some counties will have no snowfall data, because none of the cities for
+which we have data fall in those counties.  Be careful to do the merge in such
+a way that those "empty" counties stay in the GeoDataFrame, but with 'NaN' values
 for 'Estimated Snowfall'.  We want to use those records to draw
 the counties outside the snowstorm area.
 
@@ -172,6 +175,9 @@ from it.  Your map should end up looking something like this:
 
 Calculate the total straight-line travel distance around the loop
 using the GeoSeries.distance() function in our ortho projection.
+Be sure to use the center (centroid) of the city rather than just
+the boundary.  GeoPandas will compute the distance between boundaries,
+but it can differ quite a bit from the distance between centers!
 
 Calculate it again using the haversine distance in the _Platte Carree_
 projection.  What are some reasons why the values differ?
