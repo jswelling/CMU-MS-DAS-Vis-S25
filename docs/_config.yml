@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
+mermaid: true
 lsi: false
 safe: true
 source: .
