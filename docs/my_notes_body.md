@@ -6,6 +6,16 @@
 flowchart LR
   A --> B
 ```
+Nope.
+
+
+## How about here?
+<pre class="mermaid">
+graph LR
+  a --- b & c --- d
+</pre>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+Nope.
 
 
 ## Getting Started Questions:
