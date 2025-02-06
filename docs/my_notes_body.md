@@ -1,5 +1,13 @@
 # My Notes #
 
+## Does Mermaid Work Here?
+
+```mermaid
+flowchart LR
+  A --> B
+```
+
+
 ## Getting Started Questions:
 * Do all students have B2 accounts? How are they accessed?
  * They are almost out of B2 units- need to get more?
