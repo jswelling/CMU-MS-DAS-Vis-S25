@@ -50,7 +50,9 @@ Graph layout is a tricky business, because the display area is 2D.  How to
 minimize overlap and crossing of graph edges?
 
 We will be working with [Gephi](https://gephi.org/), a wonderful stand-alone
-interactive graph tool.  
+interactive graph tool.  The [Networkx](https://networkx.org/) and
+[PyVis](https://pyvis.readthedocs.io/en/latest/) packages can provide
+force-directed layout in a Jupyter notebook.
 
 
 We will also be working with [Graphviz](https://graphviz.org/) , an old but
@@ -62,8 +64,8 @@ Someday, you will want to put a really lovely graph in a paper or report.
 Graphviz is the way to make that graph.
 
 
-Tools for laying out graphs interactively in web browsers also exist, in
-the form of javascript libraries.  Let's look at an
+Javascript tools to do really lovely interactive layout also exist, many
+using the D3 library.  Let's look at an
 [example from D3](https://observablehq.com/@d3/force-directed-graph) .
 
 
@@ -80,6 +82,11 @@ If the graph is actually a tree, layout becomes a lot simpler.
 
 
 ### Using Our Demo App
+
+The goal here is to make sure you have GraphViz properly installed, and if possible to run it from
+within the Streamlit web tool we built last class.  You will need at least GraphViz to do the
+homework assignment.
+
 
 Go to your clone of the [CMU-MS-DAS-Vis-Streamlit github repo](https://github.com/jswelling/CMU-MS-DAS-Vis-Streamlit) repo. cd down into the src/webserver directory.
 
@@ -98,6 +105,10 @@ $ echo 'digraph { a -> b }' | dot -Tpng -otest.png
 ```
 This should create a png file which looks like:
 ![sample png file](images/graphviz_test.png)
+
+
+If you can't get the Streamlit tool working, the homework can be done just
+using variants of the above command line.
 
 
 Now we know we can trust Graphviz.  Let's start up the Streamlit
@@ -227,7 +238,7 @@ to generate the SVG or image.  That work gets delegated to the browser.
 
 ### There are some large sample graphs
 
-In the examples subdirectory of the CMU-MS-DAS-Vis-Flask repo, you will
+In the examples subdirectory of the CMU-MS-DAS-Vis-Streamlit repo, you will
 find:
 * *bridges_network.dot* is the internal network for the old Bridges
   supercomputer.
