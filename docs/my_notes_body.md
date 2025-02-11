@@ -71,10 +71,6 @@ To Do (3):
 
 
 To Do (4):
-* Add an example to the description of get_rel_path in the GraphViz assignment
-  where if you pass the function '/foo/bar', '/foo/bar' it should return
-  ('..', '.') and not the other way around.  This case actually happens
-  at the very beginning of the iteration.
 * Clarify Tableau requirements to say that they should demonstrate that their
   cross-vis filter is working by doing screen caps with two different subsets
   filtered (or all data and one subset).  I'm not sure how to clarify the
