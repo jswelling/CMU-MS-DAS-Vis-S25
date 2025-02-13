@@ -53,7 +53,8 @@ To Do:
 * GitHub assignment: add a note about dealing with nano/pico
 * Add some force to the prereqs.
 * "Where are we with matplotlib" assignment: make it explicit that they should
-  use the minimum date, not hard-code a minimum.
+  use the minimum date, not hard-code a minimum. Make it explicit that they
+  should use the *smoothed* curves in the final graph.
 
 
 To Do (2):
