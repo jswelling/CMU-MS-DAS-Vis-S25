@@ -52,6 +52,7 @@ bundle exec jekyll serve  # starts the server on localhost
 To Do:
 * GitHub assignment: add a note about dealing with nano/pico
 * Add some force to the prereqs.
+* Clarify that some things with points attached happen in class
 * "Where are we with matplotlib" assignment: make it explicit that they should
   use the minimum date, not hard-code a minimum. Make it explicit that they
   should use the *smoothed* curves in the final graph.
@@ -62,11 +63,14 @@ To Do (2):
   the across-counties median, Q1, and Q3 and the across-time 7-day running
   average.  Clarify that they should take non-parametric stats first and then
   do 7-day average across *all three* quantities, and graph those 3 rolling averages.
-* Seaborn assignment: can we make a version that does more with categorical data? Like
-  continuous/non-continuous vs. color bars?
+* "Working with GGPlot" assignment: add a note that they should actually do
+  it in ggplot.
+* "Working with GGPlot" assignment: maybe include patchworklib ?
 
 
 To Do (3):
+* Seaborn assignment: can we make a version that does more with categorical data? Like
+  continuous/non-continuous vs. color bars?
 * Add a 'zoom in' before the marching squares slides, showing one square
   in the grid for context.
 
