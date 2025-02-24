@@ -3,7 +3,7 @@
 
 What's a *dashboard*?  In the context of visualization, it's a summary.
 
-You've heard Tableau displays described as dashboards when they show a lot of intercconnected views
+You've heard Tableau displays described as dashboards when they show a lot of interconnected views
 of the same information.
 
 You'll hear a short description by Prof. Barber describing a dashboard as something the boss looks
