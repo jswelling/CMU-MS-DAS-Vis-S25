@@ -77,14 +77,10 @@ To Do (3):
 To Do (4):
 * Seaborn assignment: can we make a version that does more with categorical data? Like
   continuous/non-continuous vs. color bars?
-* Add a 'zoom in' before the marching squares slides, showing one square
-  in the grid for context.
 
 
 To Do (4):
-* Clarify Tableau requirements to say that they should demonstrate that their
-  cross-vis filter is working by doing screen caps with two different subsets
-  filtered (or all data and one subset).  I'm not sure how to clarify the
+* Tableau assignment: I'm not sure how to clarify the
   requirement that some data element needs to be "computed".
 
 
